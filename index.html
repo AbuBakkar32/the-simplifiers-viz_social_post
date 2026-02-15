@@ -1,20 +1,43 @@
 <!doctype html>
-<html>
+<html lang="en">
 <head>
-  <meta charset="utf-8">
-  <title>THE SIMPLIFIERS — Interactive Posts</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Abu Bakkar Siddikk — Social Posts (Venice)</title>
   <style>
-    body{font-family:system-ui,Arial;max-width:900px;margin:40px auto;padding:0 16px}
-    a{display:block;padding:12px 14px;margin:10px 0;border:1px solid #ddd;border-radius:10px;text-decoration:none}
-    a:hover{background:#f7f7f7}
+    body{font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;max-width:900px;margin:40px auto;padding:0 16px;line-height:1.45}
+    header{padding:18px 18px;border:1px solid #e5e5e5;border-radius:14px;background:#fafafa}
+    h1{margin:0 0 6px 0;font-size:24px}
+    p{margin:6px 0}
+    .grid{display:grid;grid-template-columns:1fr;gap:12px;margin-top:16px}
+    a.card{display:block;padding:14px 16px;border:1px solid #e5e5e5;border-radius:14px;text-decoration:none;color:#111;background:#fff}
+    a.card:hover{background:#f7f7f7}
+    .tag{display:inline-block;font-size:12px;padding:2px 8px;border:1px solid #ddd;border-radius:999px;margin-right:8px}
+    footer{margin-top:22px;color:#555;font-size:12px}
+    code{background:#f3f3f3;padding:2px 6px;border-radius:6px}
   </style>
 </head>
 <body>
-  <h1>THE SIMPLIFIERS — Interactive Social Posts</h1>
-  <p>Open the interactive charts:</p>
+  <header>
+    <h1>Abu Bakkar Siddikk — Social Posts (Venice)</h1>
+    <p><span class="tag">Phase 3</span><span class="tag">Environment</span><span class="tag">Venice</span></p>
+    <p>Open the two interactive diagrams below. For social posting, take a screenshot or a short screen recording.</p>
+  </header>
 
-  <a href="IG_Abu_BeeswarmViolin.html">Instagram — Violin + Beeswarm</a>
-  <a href="X_Abu_SPLOM.html">X — Scatterplot Matrix (SPLOM)</a>
+  <div class="grid">
+    <a class="card" href="IG_Abu_RouteStoryExplorer.html">
+      <strong>Instagram — Route Story Explorer</strong><br/>
+      Play/Pause animation to reveal CO₂ hotspots along the walk; hover for full context.
+    </a>
+
+    <a class="card" href="X_Abu_EnvFingerprintRadar.html">
+      <strong>X (Twitter) — Environmental Fingerprint Radar</strong><br/>
+      Compare environment types vs overall route using a normalized radar fingerprint.
+    </a>
+  </div>
+
+  <footer>
+    <p><strong>Copyright:</strong> Abu Bakkar Siddikk-908592</p>
+  </footer>
 </body>
 </html>
